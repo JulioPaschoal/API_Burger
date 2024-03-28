@@ -23,5 +23,6 @@ module.exports = {
   rules: {
     camelcase: 'off',
     'prettier/prettier': 'error',
+    'class-methods-use-this': 'off',
   },
 };
