@@ -24,5 +24,7 @@ module.exports = {
     camelcase: 'off',
     'prettier/prettier': 'error',
     'class-methods-use-this': 'off',
+    'no-param-reassign': 'off',
+    'consistent-return': 'off',
   },
 };

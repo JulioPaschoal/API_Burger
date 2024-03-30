@@ -10,7 +10,7 @@ class UserController {
     const schema = Yup.object().shape({
       name: Yup.string().required(),
       email: Yup.string().email().required(),
-      password_hash: Yup.string().required().min(6),
+      password: Yup.string().required().min(6),
       admin: Yup.string(),
     });
     try {
@@ -19,7 +19,7 @@ class UserController {
       return res.status(400).json({ error: err.errors });
     }
     // INSERINDO NO BANCO DE DADOS \\
-    const { name, email, password_hash, admin } = req.body;
+    const { name, email, password, admin } = req.body;
     // VALIDANDO EMAIL SE JÁ EXISTE \\
     const userExists = await User.findOne({
       where: { email },
@@ -31,7 +31,7 @@ class UserController {
       id: v4(),
       name,
       email,
-      password_hash,
+      password,
       admin,
     });
     return res.status(201).json({ id: user.id, name, email, admin });
