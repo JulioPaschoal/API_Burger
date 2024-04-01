@@ -1,5 +1,6 @@
 // CONF. MODULES \\
 import * as Yup from 'yup';
+import Product from '../models/Product';
 
 // CONF. PRODUCTCONTROLLER \\
 class ProductController {
@@ -15,7 +16,13 @@ class ProductController {
     } catch (err) {
       return res.status(400).json({ error: err.errors });
     }
-    return res.json({ ok: true });
+    // PEGANDO DADOS  \\
+    const { filename: path } = req.file;
+    const { name, price, category } = req.body;
+
+    // GRAVANDO DADSO NO BANCO \\
+    const product = await Product.create({ name, price, category, path });
+    return res.json(product);
   }
 }
 

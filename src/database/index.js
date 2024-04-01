@@ -2,9 +2,10 @@
 import Sequelize from 'sequelize';
 import configDatabase from '../config/database';
 import User from '../app/models/User';
+import Product from '../app/models/Product';
 
-// IMPORT MODLES \\
-const models = [User];
+// IMPORT MODELS \\
+const models = [User, Product];
 
 // CONF. CONECTAR COM BANCO \\
 class Database {
