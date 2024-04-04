@@ -8,6 +8,7 @@ import authMiddleware from './app/middlewares/auth';
 import UserController from './app/controller/UserController';
 import SessionController from './app/controller/SessionController';
 import ProductController from './app/controller/ProductController';
+import CategoryController from './app/controller/CategoryController';
 
 // CONF. UPLOADS \\
 const uploads = multer(multerConfig);
@@ -22,5 +23,8 @@ routes.post('/sessions', SessionController.store);
 routes.use(authMiddleware);
 routes.post('/products', uploads.single('file'), ProductController.store);
 routes.get('/products', ProductController.index);
+
+routes.post('/categories', CategoryController.store);
+routes.get('/categories', CategoryController.index);
 
 export default routes;
