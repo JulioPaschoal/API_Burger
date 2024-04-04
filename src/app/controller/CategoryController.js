@@ -27,8 +27,8 @@ class CategoryController {
     }
 
     // GRAVANDO DADSO NO BANCO \\
-    const category = await Category.create({ name });
-    return res.json(category);
+    const { id } = await Category.create({ name });
+    return res.json({ name, id });
   }
 
   // METODO INDEX \\
