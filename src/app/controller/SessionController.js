@@ -1,5 +1,7 @@
 // CONF. MODULES \\
 import * as Yup from 'yup';
+import jwt from 'jsonwebtoken';
+import authConfig from '../../config/auth';
 import User from '../models/User';
 
 // CONF. SESSIONS \\
@@ -35,7 +37,14 @@ class SessionController {
         .json({ error: 'Make sure your password or email are correct' });
     }
 
-    return res.json({ id: user.id, email: user.name, admin: user.admin });
+    return res.json({
+      id: user.id,
+      email: user.name,
+      admin: user.admin,
+      token: jwt.sign({ id: user.id }, authConfig.secret, {
+        expiresIn: authConfig.expiresIn,
+      }),
+    });
   }
 }
 

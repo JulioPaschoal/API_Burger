@@ -4,8 +4,9 @@ import Product from '../models/Product';
 
 // CONF. PRODUCTCONTROLLER \\
 class ProductController {
-  // VALIDADNDO DADOS RECEBIDO \\
+  // METODO STORE \\
   async store(req, res) {
+    // VALIDADNDO DADOS RECEBIDO \\
     const schema = Yup.object().shape({
       name: Yup.string().required(),
       price: Yup.number().required(),
@@ -23,6 +24,12 @@ class ProductController {
     // GRAVANDO DADSO NO BANCO \\
     const product = await Product.create({ name, price, category, path });
     return res.json(product);
+  }
+
+  // METODO INDEX \\
+  async index(req, res) {
+    const products = await Product.findAll();
+    return res.json(products);
   }
 }
 

@@ -1,5 +1,6 @@
 // CONF. MODULES \\
 import express from 'express';
+import { resolve } from 'path';
 import routes from './routes';
 
 // IMPORT  DB \\
@@ -16,6 +17,10 @@ class App {
   // CONF. MIDDLEWARE \\
   middlewares() {
     this.app.use(express.json());
+    this.app.use(
+      '/product-file',
+      express.static(resolve(__dirname, '..', 'uploads')),
+    );
   }
 
   // CONF. ROUTES \\
