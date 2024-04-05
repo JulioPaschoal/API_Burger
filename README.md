@@ -6,7 +6,6 @@
 
 > ## Bibliotecas e Ferramentas
 
-* NPM
 * Express
 * pg
 * pg-hstore
@@ -15,4 +14,7 @@
 * bcrypt
 * multer
 * JWT
+* uuid
+* mongoose
+
 

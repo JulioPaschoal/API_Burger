@@ -26,5 +26,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-param-reassign': 'off',
     'consistent-return': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
   },
 };
