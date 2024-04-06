@@ -18,7 +18,6 @@ const routes = new Router();
 
 // CONF. ROUTES \\
 routes.post('/users', UserController.store);
-
 routes.post('/sessions', SessionController.store);
 
 routes.use(authMiddleware);
@@ -29,5 +28,7 @@ routes.post('/categories', CategoryController.store);
 routes.get('/categories', CategoryController.index);
 
 routes.post('/orders', OrderController.store);
+routes.put('/orders/:id', OrderController.update);
+routes.get('/orders', OrderController.index);
 
 export default routes;
