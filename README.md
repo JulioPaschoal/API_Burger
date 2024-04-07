@@ -1,11 +1,16 @@
 > ## API construídas
 
-1. Login 
-2. Cadastro de Usuario
-3. Cadastro de Produto
+1 - Cadastro
+2 - Login
+3 - Criar Produto
+4 - Listar Produtos
+5 - Lista de Ofertas
+6 - lista de Pedidos
+7 - Carinho de Compra
+8 - Finalizar Pedido
 
-> ## Bibliotecas e Ferramentas
 
+> ## Bibliotecas Usadas no Back-End
 * Express
 * pg
 * pg-hstore
@@ -17,4 +22,6 @@
 * uuid
 * mongoose
 
+> ## Bibliotecas Usadas no Front-End
 
+*
