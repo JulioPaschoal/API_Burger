@@ -1,4 +1,4 @@
-> ## API construídas
+> ## API construída
 
 1. Login
 2. Cadastro
@@ -24,4 +24,4 @@
 
 > ## Bibliotecas Usadas no Front-End
 
-*
+* React
