@@ -25,3 +25,4 @@
 > ## Bibliotecas Usadas no Front-End
 
 * React
+* Styled-Components
