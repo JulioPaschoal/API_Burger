@@ -22,6 +22,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
+form{ 
+  display: flex;
+  flex-direction: column;
+}
+
 h1{
   font-style: normal;
   font-weight: 300;
@@ -48,7 +53,7 @@ height: 38.32px;
 background: #fff;
 box-shadow: 3px 3px 10px rgba(74, 144, 226, 0.19);
 border-radius: 5px;
-border: none;
+border: ${props => (props.error ? '2px solid #cc1717,' : "none")};
 padding-left: 10px;
 `
 export const Button = styled.button`
@@ -86,4 +91,12 @@ export const SignInLink = styled.p`
     cursor: pointer;
     text-decoration: underline;
   }
+`
+export const ErrorMessage = styled.p`
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #cc1717;
+  margin-top: 3px;
 `
