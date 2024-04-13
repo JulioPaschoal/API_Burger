@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup"
 import { LoginImage, Button, Container, ContainerItens, Input, Label, SignInLink, ErrorMessage } from "./styles";
 import LoginImg from '../../assets/lanche.svg'
 import Logo from '../../assets/logo.svg'
+import api from '../../services/api'
 
 export default function Login(){
   // VALIDANDO CAMPOS DO FORMULARIO \\
@@ -17,7 +18,13 @@ export default function Login(){
   });
 
   const { register, handleSubmit,  formState: { errors }, } = useForm({ resolver: yupResolver(schema), })
-  const onSubmit = (data) => console.log(data)
+  const onSubmit = async clientData => {
+    const res = await api.post('sessions', {
+      email: clientData.email,
+      password: clientData.password
+    })
+    console.log(res)
+  }
     return(
       
         <>

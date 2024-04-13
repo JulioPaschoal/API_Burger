@@ -1,6 +1,7 @@
 // CONF. MODULES \\
 import express from 'express';
 import { resolve } from 'path';
+import cors from 'cors';
 import routes from './routes';
 
 // IMPORT  DB \\
@@ -10,6 +11,7 @@ import './database';
 class App {
   constructor() {
     this.app = express();
+    this.app.use(cors());
     this.middlewares();
     this.routes();
   }

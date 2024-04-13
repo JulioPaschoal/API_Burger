@@ -21,8 +21,11 @@
 * JWT
 * uuid
 * mongoose
+* cors
 
 > ## Bibliotecas Usadas no Front-End
 
 * React
 * Styled-Components
+* React Hook Form
+* axios
