@@ -1,0 +1,709 @@
+
+01 - DevClub - Full Stack - PRO - INTRO
+02 - Comunidade DevClub
+03 - Preparando o Ambiente
+04 - DevClub - Full Stack - PRO - Front-end
+05 - DevClub - Full Stack - PRO - Git _ Github
+05 - DevClub - Full Stack - PRO - Git _amp_ Github
+06 - Dominando o JavaScript
+07 - Carreira
+08 - Iniciando no Back-end - Node
+09 - Evoluindo no Front-end - React
+10 - Jornada Full Stack - CodeBurger
+11 - React Native
+12 - Evoluindo na Carreira
+13 - BÔNUS
+14 - Inglês no DevClub
+15 - Eventos
+16 - Cases 
+-------
+➡️: Show
+├───📁 01 - DevClub - Full Stack - PRO - INTRO/
+│   ├───📄 01. Seja Bem-vindo(a).mp4
+│   ├───📄 01. Seja Bem-vindo(a).txt
+│   ├───📄 02. Plataforma e Aulas.mp4
+│   ├───📄 03. A Comunidade.mp4
+│   ├───📄 03. A Comunidade.txt
+│   ├───📄 04. Juntos vamos mais rápido e mais longe.mp4
+│   ├───📄 04. Juntos vamos mais rápido e mais longe.txt
+│   ├───📄 05. Encontre seu Partner.mp4
+│   ├───📄 05. Encontre seu Partner.txt
+│   ├───📄 06. Aprendendo a Aprender pt. 1.mp4
+│   ├───📄 06. Aprendendo a Aprender pt. 1.txt
+│   ├───📄 07. Aprendendo a Aprender pt. 2.mp4
+│   ├───📄 08. Você merece um troféu.mp4
+│   ├───📄 09. O segredo para o Sucesso.mp4
+│   ├───📄 10. Como atingir o Sucesso.mp4
+│   ├───📄 10. Como atingir o Sucesso.txt
+│   ├───📄 11. Não cometa esses Erros.mp4
+│   ├───📄 11. Não cometa esses Erros.txt
+│   ├───📄 12. Quadro de Metas.mp4
+│   ├───📄 13. Cronograma de Estudos.mp4
+│   ├───📄 13. Cronograma de Estudos.txt
+│   ├───📄 14. Conclusão.mp4
+│   └───📄 15. App DevClub.mp4
+├───📁 02 - Comunidade DevClub/
+│   └───📄 01. Comunidade.txt
+├───📁 03 - Preparando o Ambiente/
+│   ├───📄 01. Introdução.mp4
+│   ├───📄 02. Instalando o VsCode.mp4
+│   ├───📄 03. VsCode em Português.mp4
+│   ├───📄 04. Extensões do VsCode.mp4
+│   ├───📄 04. Extensões do VsCode.txt
+│   ├───📄 05. Instalando o NODE.mp4
+│   └───📄 06. Conclusão do Módulo.mp4
+├───📁 04 - DevClub - Full Stack - PRO - Front-end/
+│   ├───📁 01 - Módulo 3 - HTML/
+│   │   ├───📄 01. Introdução.mp4
+│   │   ├───📄 01. Introdução.txt
+│   │   ├───📄 02. Criando primeiro arquivo HTML.mp4
+│   │   ├───📄 03. TAGS HTML.mp4
+│   │   ├───📄 03. TAGS HTML.txt
+│   │   ├───📄 04. Estrutura de uma página HTML.mp4
+│   │   ├───📄 05. SEO.mp4
+│   │   ├───📄 05. SEO.txt
+│   │   ├───📄 06. TAGS para texto.mp4
+│   │   ├───📄 07. Navegando entre pastas.mp4
+│   │   ├───📄 07. Navegando entre pastas.txt
+│   │   ├───📄 08. Links.mp4
+│   │   ├───📄 08. Links.txt
+│   │   ├───📄 09. Listas.mp4
+│   │   ├───📄 10. Elementos estruturais.mp4
+│   │   ├───📄 11. Imagens no HTML.mp4
+│   │   ├───📄 11. Imagens no HTML.txt
+│   │   ├───📄 12. Desafio.mp4
+│   │   ├───📄 12. Desafio.txt
+│   │   ├───📄 13. Desafio resolvido.mp4
+│   │   ├───📄 13. Desafio resolvido.txt
+│   │   ├───📄 14. Tabelas.mp4
+│   │   ├───📄 14. Tabelas.txt
+│   │   ├───📄 15. Vídeos.mp4
+│   │   ├───📄 15. Vídeos.txt
+│   │   ├───📄 16. iFrame.mp4
+│   │   ├───📄 16. iFrame.txt
+│   │   ├───📄 17. Input pt. 1.mp4
+│   │   ├───📄 17. Input pt. 1.txt
+│   │   ├───📄 18. Input pt. 2.mp4
+│   │   ├───📄 19. Input pt. 3.mp4
+│   │   ├───📄 19. Input pt. 3.txt
+│   │   ├───📄 20. Forms.mp4
+│   │   ├───📄 20. Forms.txt
+│   │   ├───📄 21. Button.mp4
+│   │   ├───📄 21. Button.txt
+│   │   ├───📄 22. Clean Code.mp4
+│   │   ├───📄 22. Clean Code.txt
+│   │   ├───📄 23. HTML Semântico.mp4
+│   │   ├───📄 23. HTML Semântico.txt
+│   │   ├───📄 24. Conclusão do Módulo.mp4
+│   │   └───📄 24. Conclusão do Módulo.txt
+│   ├───📁 02 - Módulo 4 - CSS pt. 1/
+│   │   ├───📄 01. Introdução.mp4
+│   │   ├───📄 02. Iniciando no CSS.mp4
+│   │   ├───📄 03. CSS no HTML.mp4
+│   │   ├───📄 03. CSS no HTML.txt
+│   │   ├───📄 04. Seletores CSS.mp4
+│   │   ├───📄 04. Seletores CSS.txt
+│   │   ├───📄 05. Folha de estilo em CASCATA.mp4
+│   │   ├───📄 06. Cores no CSS.mp4
+│   │   ├───📄 06. Cores no CSS.txt
+│   │   ├───📄 07. Unidade de medidas CSS.mp4
+│   │   ├───📄 08. Textos.mp4
+│   │   ├───📄 09. Padding e Margin.mp4
+│   │   ├───📄 09. Padding e Margin.txt
+│   │   ├───📄 10. Box-sizing.mp4
+│   │   ├───📄 11. Display.mp4
+│   │   ├───📄 11. Display.txt
+│   │   ├───📄 12. Programador não é Designer.mp4
+│   │   ├───📄 12. Programador não é Designer.txt
+│   │   ├───📄 13. Projeto pt. 1 - HTML.mp4
+│   │   ├───📄 13. Projeto pt. 1 - HTML.txt
+│   │   ├───📄 14. Projeto pt. 2 - CSS.mp4
+│   │   ├───📄 14. Projeto pt. 2 - CSS.txt
+│   │   ├───📄 15. Projeto pt. 3 - CSS.mp4
+│   │   ├───📄 15. Projeto pt. 3 - CSS.txt
+│   │   ├───📄 16. Desafio 1.mp4
+│   │   ├───📄 16. Desafio 1.txt
+│   │   ├───📄 17. Desafio 1 - Resolvido.mp4
+│   │   └───📄 17. Desafio 1 - Resolvido.txt
+│   └───📁 03 - Módulo 5 - CSS pt. 2/
+│       ├───📄 01. important.mp4
+│       ├───📄 02. Position pt. 1.mp4
+│       ├───📄 02. Position pt. 1.txt
+│       ├───📄 03. Position pt. 2.mp4
+│       ├───📄 04. Pseudo elementos.mp4
+│       ├───📄 05. Pseudo classes pt. 1.mp4
+│       ├───📄 05. Pseudo classes pt. 1.txt
+│       ├───📄 06. Pseudo classes pt. 2.mp4
+│       ├───📄 07. Responsividade pt. 1.mp4
+│       ├───📄 07. Responsividade pt. 1.txt
+│       ├───📄 08. Responsividade pt. 2.mp4
+│       ├───📄 08. Responsividade pt. 2.txt
+│       ├───📄 09. Projeto pt. 1.mp4
+│       ├───📄 09. Projeto pt. 1.txt
+│       ├───📄 10. Projeto pt. 2.mp4
+│       ├───📄 10. Projeto pt. 2.txt
+│       ├───📄 11. Projeto pt. 3.mp4
+│       ├───📄 11. Projeto pt. 3.txt
+│       ├───📄 12. Projeto pt. 4.mp4
+│       ├───📄 13. Desafio.mp4
+│       ├───📄 13. Desafio.txt
+│       ├───📄 14. Calc.mp4
+│       └───📄 15. Conclusão.mp4
+├───📁 05 - DevClub - Full Stack - PRO - Git _ Github/
+│   ├───📄 01. Intro - O que é Git _ Github.mp4
+│   ├───📄 02. Instalando o GIT.mp4
+│   ├───📄 02. Instalando o GIT.txt
+│   ├───📄 03. Entendendo o Github.mp4
+│   ├───📄 04. Criando conta no Github.mp4
+│   ├───📄 05. Logando no Github localmente.mp4
+│   ├───📄 06. Criando primeiro repositório.mp4
+│   ├───📄 07. Adicionando arquivos na área de Stage.mp4
+│   ├───📄 08. Fazendo o primeiro Commit.mp4
+│   ├───📄 09. Instalando novas extensões no VsCode.mp4
+│   ├───📄 10. Git push.mp4
+│   ├───📄 11. Git pull.mp4
+│   ├───📄 12. Git com linha de comando.mp4
+│   ├───📄 13. Subindo projeto do ZERO.mp4
+│   ├───📄 14. Resumo.mp4
+│   ├───📄 15. Desafio.mp4
+│   ├───📄 16. Entendendo o conceito de Branches.mp4
+│   ├───📄 17. Branches na prática.mp4
+│   ├───📄 18. Git merge.mp4
+│   ├───📄 19. Editando o perfil do Github.mp4
+│   ├───📄 19. Editando o perfil do Github.txt
+│   ├───📄 20. Criando um README.md dos projetos.mp4
+│   ├───📄 21. Publicando seus projetos.mp4
+│   └───📄 22. Desafio final Git _ Github.mp4
+├───📁 05 - DevClub - Full Stack - PRO - Git _amp_ Github/
+│   ├───📄 01. Intro - O que é Git _ Github.txt
+│   ├───📄 02. Instalando o GIT.txt
+│   ├───📄 05. Logando no Github localmente.txt
+│   ├───📄 06. Criando primeiro repositório.txt
+│   ├───📄 09. Instalando novas extensões no VsCode.txt
+│   ├───📄 10. Git push.txt
+│   ├───📄 11. Git pull.txt
+│   ├───📄 18. Git merge.txt
+│   ├───📄 19. Editando o perfil do Github.txt
+│   └───📄 21. Publicando seus projetos.txt
+├───📁 06 - Dominando o JavaScript/
+│   ├───📁 01 - Módulo 7 - JavaScript/
+│   │   ├───📄 01. Lógica de Programação.mp4
+│   │   ├───📄 02. Linguagem de Programação.mp4
+│   │   ├───📄 03. O que é JavaScript.mp4
+│   │   ├───📄 04. Como executar JavaScript.mp4
+│   │   ├───📄 04. Como executar JavaScript.txt
+│   │   ├───📄 05. Variáveis.mp4
+│   │   ├───📄 06. Tipos de dados - String.mp4
+│   │   ├───📄 06. Tipos de dados - String.txt
+│   │   ├───📄 07. Tipos de dados - Numbers.mp4
+│   │   ├───📄 08. Tipos de dados - Object.mp4
+│   │   ├───📄 08. Tipos de dados - Object.txt
+│   │   ├───📄 09. Tipos de dados - Boolean.mp4
+│   │   ├───📄 10. Tipos de dados - Array.mp4
+│   │   ├───📄 11. Math.mp4
+│   │   ├───📄 11. Math.txt
+│   │   ├───📄 12. Desafio 1.mp4
+│   │   ├───📄 12. Desafio 1.txt
+│   │   ├───📄 13. Desafio 1 - Resolução.mp4
+│   │   ├───📄 13. Desafio 1 - Resolução.txt
+│   │   ├───📄 14. Operadores aritméticos.mp4
+│   │   ├───📄 14. Operadores aritméticos.txt
+│   │   ├───📄 15. Operadores de atribuição.mp4
+│   │   ├───📄 16. Operadores de comparação.mp4
+│   │   ├───📄 17. Operadores de comparação pt. 2.mp4
+│   │   ├───📄 18. Operadores lógicos.mp4
+│   │   ├───📄 19. Operador ternário.mp4
+│   │   ├───📄 20. Operadores typeof e delete.mp4
+│   │   ├───📄 20. Operadores typeof e delete.txt
+│   │   ├───📄 21. If else.mp4
+│   │   ├───📄 22. Else if.mp4
+│   │   ├───📄 23. Switch case.mp4
+│   │   ├───📄 24. For.mp4
+│   │   ├───📄 24. For.txt
+│   │   ├───📄 25. While.mp4
+│   │   ├───📄 26. For of.mp4
+│   │   ├───📄 27. For in.mp4
+│   │   ├───📄 28. Desafio 2.mp4
+│   │   ├───📄 28. Desafio 2.txt
+│   │   ├───📄 29. Desafio 2 - Resolução.mp4
+│   │   └───📄 29. Desafio 2 - Resolução.txt
+│   ├───📁 02 - Módulo 8 - JavaScript pt. 2/
+│   │   ├───📄 01. Function.mp4
+│   │   ├───📄 02. Function  -  argumentos e parâmetros.mp4
+│   │   ├───📄 02. Function  argumentos e parâmetros.txt
+│   │   ├───📄 03. Return function.mp4
+│   │   ├───📄 04. Function Anônima.mp4
+│   │   ├───📄 05. Arrow Function.mp4
+│   │   ├───📄 06. Fazendo uma calculadora com Functions.mp4
+│   │   ├───📄 07. Desafio Functions.mp4
+│   │   ├───📄 07. Desafio Functions.txt
+│   │   ├───📄 08. Resolução Desafio Functions.mp4
+│   │   ├───📄 08. Resolução Desafio Functions.txt
+│   │   ├───📄 09. Array - push, length, sort e delete.mp4
+│   │   ├───📄 10. Array - splice, slice, pop e shift.mp4
+│   │   ├───📄 11. For each.mp4
+│   │   ├───📄 11. For each.txt
+│   │   ├───📄 12. Map.mp4
+│   │   ├───📄 12. Map.txt
+│   │   ├───📄 13. Map pt. 2.mp4
+│   │   ├───📄 14. Map - Desafio.mp4
+│   │   ├───📄 14. Map - Desafio.txt
+│   │   ├───📄 15. Filter.mp4
+│   │   ├───📄 16. Filter - Desafio.mp4
+│   │   ├───📄 16. Filter - Desafio.txt
+│   │   ├───📄 17. Reduce.mp4
+│   │   ├───📄 18. Reduce - Desafio.mp4
+│   │   └───📄 19. Map, Reduce e Filter.mp4
+│   └───📁 03 - Módulo 9 - JavaScript Web/
+│       ├───📄 01. Introdução e a DOM.mp4
+│       ├───📄 02. Conectando com HTML.mp4
+│       ├───📄 03. getElementById.mp4
+│       ├───📄 04. getElementByClassName.mp4
+│       ├───📄 05. getElementByTagName.mp4
+│       ├───📄 06. querySelector.mp4
+│       ├───📄 07. querySelectorAll.mp4
+│       ├───📄 08. getElementByName.mp4
+│       ├───📄 09. Selecionando atributos.mp4
+│       ├───📄 10. Manipulando textos.mp4
+│       ├───📄 11. Manipulando estilos.mp4
+│       ├───📄 12. Eventos.mp4
+│       ├───📄 13. Propriedade eventos.mp4
+│       ├───📄 14. Event lisening.mp4
+│       ├───📄 15. Projeto pt. 1 - HTML.mp4
+│       ├───📄 15. Projeto pt. 1 - HTML.txt
+│       ├───📄 16. Projeto - CSS pt.1.mp4
+│       ├───📄 17. Projeto - CSS pt. 2.mp4
+│       ├───📄 18. Projeto - CSS pt. 3.mp4
+│       ├───📄 19. Projeto - JavaScript pt.1.mp4
+│       ├───📄 20. Projeto - JavaScript pt. 2.mp4
+│       ├───📄 21. Projeto - JavaScript pt. 3.mp4
+│       ├───📄 22. Projeto - JavaScript pt. 4.mp4
+│       ├───📄 23. Projeto - JavaScript pt. 5.mp4
+│       └───📄 24. Desafio.mp4
+├───📁 07 - Carreira/
+│   ├───📁 00 - Fórmula para o Sucesso/
+│   │   ├───📄 01. Introdução.mp4
+│   │   ├───📄 01. Introdução.txt
+│   │   ├───📄 02. Porque estou aqui O que vou fazer por VOCÊ.mp4
+│   │   ├───📄 03. Vença a Procrastinação.mp4
+│   │   ├───📄 04. Vença os inimigos Internos.mp4
+│   │   ├───📄 05. Vença os inimigos Externos.mp4
+│   │   ├───📄 06. Nunca se compare com Ninguém.mp4
+│   │   ├───📄 07. Qual é a chave para o Sucesso.mp4
+│   │   └───📄 08. O que te move.mp4
+│   └───📁 01 - Consiga seu Primeiro Emprego/
+│       ├───📄 01. Introdução.mp4
+│       ├───📄 02. Vença seus inimigos.mp4
+│       ├───📄 03. Mindset DevClub.mp4
+│       ├───📄 04. Como funciona os processos seletivos na Programação.mp4
+│       ├───📄 05. Parabéns, você está contratado(a).mp4
+│       ├───📄 06. Onde conseguir Emprego.mp4
+│       ├───📄 06. Onde conseguir Emprego.txt
+│       ├───📄 07. Linkedin pt.1.mp4
+│       ├───📄 08. Linkedin pt.2.mp4
+│       ├───📄 09. Linkedin pt.3.mp4
+│       ├───📄 10. Linkedin pt.4.mp4
+│       ├───📄 11. Linkedin pt.5.mp4
+│       ├───📄 12. Linkedin pt.6.mp4
+│       ├───📄 12. Linkedin pt.6.txt
+│       ├───📄 13. Faça um currículo perfeito.mp4
+│       ├───📄 13. Faça um currículo perfeito.txt
+│       ├───📄 14. Faça um currículo perfeito pt.2.mp4
+│       ├───📄 14. Faça um currículo perfeito pt.2.txt
+│       ├───📄 15. Entrevista pt. 1.mp4
+│       ├───📄 16. Entrevista pt. 2.mp4
+│       ├───📄 17. Entrevista pt. 3.mp4
+│       ├───📄 17. Entrevista pt. 3.txt
+│       ├───📄 18. Entrevista pt. 4.mp4
+│       ├───📄 19. Missão Primeiro Emprego.mp4
+│       ├───📄 20. Conclusão.mp4
+│       ├───📄 21. Aula Bônus.mp4
+│       └───📄 22. Como ganhar dinheiro com Freela.mp4
+├───📁 08 - Iniciando no Back-end  -  Node/
+│   ├───📁 01 - Node/
+│   │   ├───📄 01. Introdução.mp4
+│   │   ├───📄 02. Conceito de Back end e Front end.mp4
+│   │   ├───📄 03. Conceito de Node.mp4
+│   │   ├───📄 04. Protocolo HTTP.mp4
+│   │   ├───📄 05. Instalando o Node.mp4
+│   │   ├───📄 06. NPM - Gerenciador de pacotes do Node.mp4
+│   │   ├───📄 07. Iniciando um projeto Node.mp4
+│   │   ├───📄 07. Iniciando um projeto Node.txt
+│   │   ├───📄 08. VsCode - Instalando o Command Path.mp4
+│   │   ├───📄 08. VsCode - Instalando o Command Path.txt
+│   │   ├───📄 09. Instalando o Express.mp4
+│   │   ├───📄 09. Instalando o Express.txt
+│   │   ├───📄 10. Express.mp4
+│   │   ├───📄 10. Express.txt
+│   │   ├───📄 11. Instalando o Insomnia.mp4
+│   │   ├───📄 12. Instalando o Nodemon.mp4
+│   │   ├───📄 12. Instalando o Nodemon.txt
+│   │   ├───📄 13. JSON.mp4
+│   │   ├───📄 14. Query Params.mp4
+│   │   ├───📄 15. Route Params.mp4
+│   │   ├───📄 16. Body Params.mp4
+│   │   ├───📄 17. Primeiro projeto Node pt. 1.mp4
+│   │   ├───📄 18. Primeiro projeto Node pt. 2.mp4
+│   │   ├───📄 19. Primeiro projeto Node pt. 3.mp4
+│   │   ├───📄 20. Middlewares.mp4
+│   │   ├───📄 21. Debugando nossa aplicação.mp4
+│   │   ├───📄 21. Debugando nossa aplicação.txt
+│   │   ├───📄 22. Gitignore.mp4
+│   │   ├───📄 23. Desafio Node.mp4
+│   │   └───📄 23. Desafio Node.txt
+│   └───📁 02 - JavaScript Avançado/
+│       ├───📄 01. API, API REST E API RESTFUL.mp4
+│       ├───📄 02. Var x Let x Const.mp4
+│       ├───📄 03. Módulos no Node.mp4
+│       ├───📄 03. Módulos no Node.txt
+│       ├───📄 04. Entendendo o this.mp4
+│       ├───📄 05. Lidando com erros - Try _ Catch.mp4
+│       ├───📄 06. Promises e Async Await.mp4
+│       └───📄 07. Classes.mp4
+├───📁 09 - Evoluindo no Front-end  -  React/
+│   ├───📁 01 - Flexbox/
+│   │   ├───📄 01. Display flex.mp4
+│   │   ├───📄 02. Flex Direction.mp4
+│   │   ├───📄 03. Flex Wrap.mp4
+│   │   ├───📄 04. Flex Flow.mp4
+│   │   ├───📄 05. Justify Content.mp4
+│   │   ├───📄 06. Align Items.mp4
+│   │   ├───📄 07. Align Content.mp4
+│   │   ├───📄 08. Gap.mp4
+│   │   ├───📄 09. Flex Basis.mp4
+│   │   ├───📄 10. Flex Grow.mp4
+│   │   ├───📄 11. Flex Shrink.mp4
+│   │   ├───📄 12. Flex.mp4
+│   │   ├───📄 13. Order.mp4
+│   │   ├───📄 14. Align Self.mp4
+│   │   ├───📄 15. Origamid.mp4
+│   │   ├───📄 16. Convert Money com Display Flex.mp4
+│   │   ├───📄 17. Desafio Flex Box.mp4
+│   │   └───📄 17. Desafio Flex Box.txt
+│   ├───📁 02 - Iniciando no React/
+│   │   ├───📄 01. Introdução ao React.mp4
+│   │   ├───📄 02. Instalando o Yarn.mp4
+│   │   ├───📄 03. Iniciando um projeto React.mp4
+│   │   ├───📄 03. Iniciando um projeto React.txt
+│   │   ├───📄 04. Entendendo a sintaxe JSX.mp4
+│   │   ├───📄 05. CSS no React.mp4
+│   │   ├───📄 06. Styled Components.mp4
+│   │   ├───📄 07. Estrutura HTML do projeto.mp4
+│   │   ├───📄 08. Imagens no React.mp4
+│   │   ├───📄 09. Estilos globais no React.mp4
+│   │   ├───📄 10. Estilizando a aplicação.mp4
+│   │   ├───📄 11. Finalizando a estilização.mp4
+│   │   ├───📄 12. Renderizando vários itens no React.mp4
+│   │   ├───📄 13. Estilizando Card de usuario.mp4
+│   │   ├───📄 14. Entendendo o conceito de Estado no React.mp4
+│   │   ├───📄 15. Pegando valores do Inputs.mp4
+│   │   ├───📄 16. Spread operator.mp4
+│   │   ├───📄 17. Aprendendo React Hook - Use Ref.mp4
+│   │   └───📄 18. Deletando usuários.mp4
+│   ├───📁 03 - Continuando Aplicacao com React/
+│   │   ├───📄 01. Conectando Front-end e Back-end.mp4
+│   │   ├───📄 01. Conectando Front-end e Back-end.txt
+│   │   ├───📄 02. Cadastrando novos usuários no Back-end.mp4
+│   │   ├───📄 03. Recuperando usuários no Back-end.mp4
+│   │   ├───📄 04. Aprendendo sobre o React Hook - UseEffect.mp4
+│   │   ├───📄 05. Deletando um usuário.mp4
+│   │   ├───📄 06. Iniciando criacao da tela de listagem de usuarios.mp4
+│   │   ├───📄 07. Estilizando tela de listagem de usuarios.mp4
+│   │   ├───📄 08. ATUALIZAÇÃO - React Router Dom v6.txt
+│   │   ├───📄 09. Criando as rotas da nossa aplicacao.mp4
+│   │   ├───📄 10. Navegando entre telas com o Link.mp4
+│   │   ├───📄 11. Navegando entre telas com o history.mp4
+│   │   ├───📄 11. Navegando entre telas com o history.txt
+│   │   ├───📄 12. ATUALIZAÇÃO - React Router Dom v6.mp4
+│   │   ├───📄 13. Componentizando a nossa aplicacao.mp4
+│   │   ├───📄 14. Componentizando o Botao.mp4
+│   │   ├───📄 15. Aprendendo sobre Props no React.mp4
+│   │   ├───📄 16. Alterando CSS com Props.mp4
+│   │   ├───📄 17. Desafio React.mp4
+│   │   └───📄 17. Desafio React.txt
+│   └───📁 04 - CSS Avançado - Display GRID/
+│       ├───📄 01. Grid template columns.mp4
+│       ├───📄 02. Grid template rows.mp4
+│       ├───📄 03. Grid gap.mp4
+│       ├───📄 04. Grid auto rows.mp4
+│       ├───📄 05. Grid column.mp4
+│       ├───📄 06. Grid row.mp4
+│       ├───📄 07. Display Grid na prática.mp4
+│       ├───📄 08. Grid area.mp4
+│       ├───📄 09. Propriedades para Alinhamento no container.mp4
+│       ├───📄 10. Propriedades para Alinhamento nos itens.mp4
+│       ├───📄 11. Origamid.mp4
+│       ├───📄 11. Origamid.txt
+│       ├───📄 12. Desafio.mp4
+│       └───📄 12. Desafio.txt
+├───📁 10 - Jornada Full Stack  -  CodeBurger/
+│   ├───📁 01 - Iniciando API do CodeBurger - Back End/
+│   │   ├───📄 01. Instalando o Yarn.mp4
+│   │   ├───📄 02. Iniciando o projeto do CodeBurger.mp4
+│   │   ├───📄 03. Instalando Nodemon e Sucrase.mp4
+│   │   ├───📄 04. Padronizando nosso código com Eslint + Prettier.mp4
+│   │   ├───📄 04. Padronizando nosso código com Eslint + Prettier.txt
+│   │   ├───📄 05. MVC.mp4
+│   │   ├───📄 06. Conceitos sobre Docker.mp4
+│   │   ├───📄 07. Resolvendo problema de instalacao do Docker no Windows.mp4
+│   │   ├───📄 07. Resolvendo problema de instalacao do Docker no Windows.txt
+│   │   ├───📄 08. Primeiro container Docker.mp4
+│   │   ├───📄 08. Primeiro container Docker.txt
+│   │   ├───📄 09. SQL  -  Sequelize.mp4
+│   │   ├───📄 10. Instalando o Sequelize.mp4
+│   │   ├───📄 10. Instalando o Sequelize.txt
+│   │   ├───📄 11. Primeira Migration.mp4
+│   │   ├───📄 11. Primeira Migration.txt
+│   │   ├───📄 12. Criando Model de Usuário.mp4
+│   │   ├───📄 13. Configuração do Model de Usuário.mp4
+│   │   ├───📄 14. Criando Controller de Usuário.mp4
+│   │   ├───📄 15. Validando dados com o Yup.mp4
+│   │   ├───📄 16. Validando email Duplicado.mp4
+│   │   ├───📄 17. Criando Hash de senha.mp4
+│   │   ├───📄 18. Fazendo o login de usuário.mp4
+│   │   ├───📄 19. Criando Migration de Produtos.mp4
+│   │   ├───📄 20. Criando Controller de Produtos.mp4
+│   │   ├───📄 21. Upload de imagens com Multer.mp4
+│   │   └───📄 22. Criando Model de Produtos.mp4
+│   ├───📁 02 - Continuando a API do CodeBurger - Back End/
+│   │   ├───📄 01. Conceitos de JWT.mp4
+│   │   ├───📄 02. Configurando token JWT pt. 1.mp4
+│   │   ├───📄 03. Configurando token JWT pt. 2.mp4
+│   │   ├───📄 04. Entendendo o relacionamento em Banco de Dados.mp4
+│   │   ├───📄 05. Criando tabela de categorias.mp4
+│   │   ├───📄 06. Validando categoria repetida.mp4
+│   │   ├───📄 07. Criando e excluindo campos de uma tabela.mp4
+│   │   ├───📄 08. Criando relacionamento entre tabelas.mp4
+│   │   ├───📄 09. Alterando Controller de produtos.mp4
+│   │   ├───📄 10. MongoDB - Bancos SQL x Bancos NoSQL.mp4
+│   │   ├───📄 11. Criando conexão com o MongoDB.mp4
+│   │   ├───📄 12. Criando Scheme de pedidos.mp4
+│   │   ├───📄 12. Criando Scheme de pedidos.txt
+│   │   ├───📄 13. Criando Controller de pedidos.mp4
+│   │   ├───📄 13. Criando Controller de pedidos.txt
+│   │   ├───📄 14. Gravando pedidos no MongoDB.mp4
+│   │   ├───📄 15. Atualizando status do pedido.mp4
+│   │   ├───📄 16. Validando usuário Admin.mp4
+│   │   ├───📄 17. Update do Produto.mp4
+│   │   ├───📄 18. Update de Categorias.mp4
+│   │   └───📄 18. Update de Categorias.txt
+│   ├───📁 03 - CodeBurger - Front End pt. 1/
+│   │   ├───📄 01. Intro - CodeBurger - React.mp4 
+│   │   ├───📄  01. Intro - CodeBurger - React.txt
+│   │   ├───📄 02. Eslint + Prettier no React.mp4
+│   │   ├───📄 02. Eslint + Prettier no React.txt
+│   │   ├───📄 03. Estilos Globais com Styled Components.mp4
+│   │   ├───📄 04. Estilizando a tela de Login.mp4
+│   │   ├───📄 04. Estilizando a tela de Login.txt
+│   │   ├───📄 05. Formulário com React Hook Form.mp4
+│   │   ├───📄 06. Validando o formulário de Login.mp4
+│   │   ├───📄 07. Conectando Front end e Back end.mp4
+│   │   ├───📄 08. Criando componente de Button  -  PropTypes.mp4
+│   │   ├───📄 09. Criando tela de Register.mp4
+│   │   ├───📄 10. Toast Messages com React Toastify.mp4
+│   │   ├───📄 11. React Hook - useContext.mp4
+│   │   ├───📄 12. Adicionando informações do usuário no useContext.mp4
+│   │   ├───📄 13. Gravando informações do usuário no Local Storage.mp4
+│   │   ├───📄 14. ATUALIZAÇÃO - React Router Dom v6.txt
+│   │   ├───📄 15. Criando as rotas da aplicação.mp4
+│   │   ├───📄 16. Criando rotas privadas.mp4
+│   │   ├───📄 17. Iniciando tela de Home.mp4
+│   │   ├───📄 18. Adicionando Token JWT as chamadas a API.mp4
+│   │   ├───📄 19. Criando Carrossel de categorias.mp4
+│   │   ├───📄 20. Criando Carrossel de ofertas.mp4
+│   │   └───📄 21. Formatando valores monetários.mp4
+│   ├───📁 04 - CodeBurger - Front End pt. 2/
+│   │   ├───📄 01. Criando o Menu de seleção de categorias.mp4
+│   │   ├───📄 02. Criando Cards de Produtos.mp4
+│   │   ├───📄 03. Criando filtro por categorias.mp4
+│   │   ├───📄 04. Alterando exportação e importação de componentes e páginas.mp4
+│   │   ├───📄 05. Alterando importação dos Hooks.mp4
+│   │   ├───📄 06. Criando a lógica do carrinho.mp4
+│   │   ├───📄 07. Criando estrutura do carrinho.mp4
+│   │   ├───📄 08. Estilizando o carrinho.mp4
+│   │   ├───📄 09. Estilizando botões de quantidade.mp4
+│   │   ├───📄 10. Adicionando e deletando itens do carrinho.mp4
+│   │   ├───📄 10. Adicionando e deletando itens do carrinho.txt
+│   │   ├───📄 11. Atualizando local storage.mp4
+│   │   ├───📄 12. Criando resumo do carrinho.mp4
+│   │   ├───📄 13. Criando lógica do resumo do carrinho.mp4
+│   │   ├───📄 14. Enviando pedido para a API.mp4
+│   │   ├───📄 15. Iniciando o Header da aplicação.mp4
+│   │   ├───📄 16. Finalizando o Header.mp4
+│   │   ├───📄 17. Deslogando o usuário.mp4
+│   │   ├───📄 18. Corrigindo links em categorias e produtos.mp4
+│   │   └───📄 19. Adicionando nome do usuário ao Header.mp4
+│   └───📁 05 - CodeBurger - Front End pt. 3/
+│       ├───📄 01. Validando se o usuário é Admin.mp4
+│       ├───📄 02. Instando o MUI na nossa aplicação.mp4
+│       ├───📄 03. Comecando a construir nossa tabela com MUI.mp4
+│       ├───📄 04. Continuando a criação da nossa tabela com MUI.mp4
+│       ├───📄 05. Arrumando nossa tabela.mp4
+│       ├───📄 06. Atualizando status do pedido.mp4
+│       ├───📄 07. Criando menu de seleção de status.mp4
+│       ├───📄 08. Finalizando lógica do menu e select de status.mp4
+│       ├───📄 09. Criando menu lateral.mp4
+│       ├───📄 10. Criando logout Admin.mp4
+│       ├───📄 11. Iniciando tela de listagem de produtos.mp4
+│       ├───📄 12. Continuando a tela de listagem de produtos.mp4
+│       ├───📄 13. Organizando menu e tela de Admin.mp4
+│       ├───📄 14. Organizando link ativo no menu Admin.mp4
+│       ├───📄 15. Começando tela de adição de novo produto.mp4
+│       ├───📄 16. Criando formulário de adição de produto.mp4
+│       ├───📄 17. Estilizando formulário de novo produto.mp4
+│       ├───📄 18. Criando input de upload de imagem.mp4
+│       ├───📄 19. Criando select de categorias.mp4
+│       ├───📄 20. Validando formulário de criação do produto.mp4
+│       ├───📄 21. Corrigindo CSS do formulário de criação do usuário.mp4
+│       ├───📄 22. Enviando novo produto para o Back-end.mp4
+│       ├───📄 23. Criando tela de editar produtos.mp4
+│       ├───📄 24. Finalizando tela de edição de usuários.mp4
+│       └───📄 24. Finalizando tela de edição de usuários.txt
+├───📁 11 - React Native/
+│   ├───📄 01. Catacteristicas de um DEV Mobile.mp4
+│   ├───📄 01. Catacteristicas de um DEV Mobile.txt
+│   ├───📄 02. Platform Proprietary, Hybrid HTML _ Cross-Platform.mp4
+│   ├───📄 02. Platform Proprietary, Hybrid HTML _ Cross-Platform.txt
+│   ├───📄 03. Mercado de Trabalho.mp4
+│   ├───📄 04. Showcases _ Popularidade.mp4
+│   ├───📄 05. Heranca ReactJS, Bridge _ Estrutura.mp4
+│   ├───📄 06. Instalacao e Configuracao de ambiente Android _ iOS.mp4
+│   ├───📄 07. Primeiros Passos, Componentes e Estrutura.mp4
+│   ├───📄 08. LookApp - Conhecendo o Projeto.mp4
+│   ├───📄 08. LookApp - Conhecendo o Projeto.txt
+│   ├───📄 09. LookApp - Estrutura de Componentes _ Projeto.mp4
+│   ├───📄 10. LookApp - Design System _ Styled-Components.mp4
+│   ├───📄 11. LookApp - Criando componente estilizados.mp4
+│   ├───📄 12. LookApp - Pagina Home.mp4
+│   ├───📄 13. LookApp - Construindo SignUp.mp4
+│   ├───📄 14. Estrutura Nativa Android, Android Studio e React Native Vector Icons.mp4
+│   ├───📄 15. Estrutura Nativa iOS, Xcode e React Native Vector Icons.mp4
+│   ├───📄 16. LookApp - Construindo componente Header.mp4
+│   ├───📄 17. LookApp - Construindo StoryList.mp4
+│   ├───📄 18. LookApp - Construindo Story Component 01.mp4
+│   ├───📄 19. LookApp - Construindo Story Component 02.mp4
+│   ├───📄 20. LookApp - Construindo Post Component 01.mp4
+│   ├───📄 21. LookApp - Construindo Post Component 02.mp4
+│   ├───📄 22. LookApp - Configurando Navegacao com React Navigation.mp4
+│   ├───📄 23. LookApp - Navegando entre Telas com React Navigation.mp4
+│   ├───📄 24. LookApp - Drawer Navigation com React Navigation.mp4
+│   ├───📄 25. LookApp - Customizando Componente Drawer.mp4
+│   ├───📄 26. LookApp - Configurando Header Dinamico.mp4
+│   ├───📄 27. LookApp - Construindo tela Marketplace.mp4
+│   ├───📄 28. LookApp - Construindo tela de Categoria e Listagem de Produtos.mp4
+│   ├───📄 29. LookApp - Construindo Tela de Produto 01.mp4
+│   ├───📄 30. LookApp - Construindo Tela de Produto 02.mp4
+│   ├───📄 31. LookAapp - Tab Cart Screen _ Component.mp4
+│   ├───📄 32. LookAapp - Cart Screen.mp4
+│   ├───📄 33. LookAapp - Payment Screen.mp4
+│   ├───📄 34. LookAapp - Payment Form.mp4
+│   ├───📄 35. LookAapp - Congratulations Screen.mp4
+│   ├───📄 36. LookAapp - Orders Screen.mp4
+│   ├───📄 37. LookAapp - Configurando API com json-server e instalando dependencias.mp4
+│   ├───📄 38. LookAapp - Configurando API Context.mp4
+│   ├───📄 39. LookAapp - Login 01.mp4
+│   ├───📄 40. LookAapp - Login 02.mp4
+│   ├───📄 41. LookApp - Criando SignUp.mp4
+│   ├───📄 42. LookApp - Recuperando Posts _ Stories.mp4
+│   ├───📄 43. LookApp - Listando Post _ Stories.mp4
+│   ├───📄 44. LookApp - Recuperando e Listando Categorias.mp4
+│   ├───📄 45. LookApp - Recuperando e Listando Produtos da Categoria.mp4
+│   ├───📄 46. LookApp - Exibindo, Adicionando ou Removendo Produto 01.mp4
+│   ├───📄 47. LookApp - Exibindo, Adicionando ou Removendo Produto 02.mp4
+│   ├───📄 48. LookApp - Finalizando tela Carrinho.mp4
+│   ├───📄 49. LookApp - Validacao de cartao de credito e criacao de Order.mp4
+│   └───📄 50. LookApp - Recuperar e Listar Orders.mp4
+├───📁 12 - Evoluindo na Carreira/
+│   ├───📁 00 - Soft Skills - Sendo o melhor Profissional do Mercado/
+│   │   ├───📄 01. Seja o Melhor Profissional do Mercado.mp4
+│   │   ├───📄 02. Comunicação.mp4
+│   │   ├───📄 03. Humildade.mp4
+│   │   ├───📄 04. Proatividade.mp4
+│   │   ├───📄 05. Honestidade.mp4
+│   │   ├───📄 06. Trabalho em Equipe.mp4
+│   │   ├───📄 07. Auto Responsabilidade.mp4
+│   │   └───📄 08. Conclusão.mp4
+│   └───📁 01 - Mentoria com o RH/
+│       ├───📄 01. Mentoria MB Labs.mp4
+│       ├───📄 02. Mentoria com a Rafa.mp4
+│       ├───📄 03. Mentoria com a Rafa 15.09.2022.mp4
+│       └───📄 05. Mentoria com a Rafa - Tira Dúvidas - 03.11.2022.mp4
+├───📁 13 - BÔNUS/
+│   ├───📁 00 - Carreira - Guilherme Ti na Europa/
+│   │   ├───📄 01. Mindset Correto.mp4
+│   │   ├───📄 02. Como entrar no mercado de TI.mp4
+│   │   ├───📄 03. Mercado de trabalho no exterior.mp4
+│   │   ├───📄 04. Linkedin.mp4
+│   │   └───📄 05. Como avançar na carreira.mp4
+│   ├───📁 01 - Finanças com Eduardo Stetner/
+│   │   ├───📄 01. Aula 1.mp4
+│   │   ├───📄 02. Aula 2.mp4
+│   │   ├───📄 03. Aula 3.mp4
+│   │   └───📄 04. Aula 4.mp4
+│   └───📁 02 - Mentorias em Grupo/
+│       ├───📄 01. Como conseguir seu Primeiro Emprego.mp4
+│       ├───📄 01. Como conseguir seu Primeiro Emprego.txt
+│       ├───📄 02. Mentoria 01.09.2022.mp4
+│       └───📄 02. Mentoria 01.09.2022.txt
+├───📁 14 - Inglês no DevClub/
+│   ├───📄 01. Aula 1 - 26.06.2022 - English class - 01 Page-1.pdf
+│   ├───📄 01. Aula 1 - 26.06.2022.mp4
+│   ├───📄 02. Aula 2 - 04.07.2022 - English class 02 Page-1.pdf
+│   ├───📄 02. Aula 2 - 04.07.2022.mp4
+│   ├───📄 03. Aula 3 - 11.07.2022.mp4
+│   ├───📄 04. Aula 4 - 18.07.2022.mp4
+│   ├───📄 05. Aula 5 - 25.07.2022.mp4
+│   ├───📄 06. Aula 6 - 01.08.2022.mp4
+│   ├───📄 07. Aula 7 - 08.08.2022.mp4
+│   ├───📄 08. Aula 8 - 18.08.2022.mp4
+│   ├───📄 09. Aula 9 - 22.08.2022.mp4
+│   ├───📄 10. Aula 10 - 29.08.2022.mp4
+│   ├───📄 11. Aula 11 - 05.09.2022.mp4
+│   ├───📄 12. Aula 12 - 12.09.2022.mp4
+│   ├───📄 13. Aula 13.mp4
+│   ├───📄 14. Aula 14.mp4
+│   ├───📄 15. Aula 15.mp4
+│   ├───📄 16. Aula 16.mp4
+│   ├───📄 17. Aula 17.mp4
+│   ├───📄 18. Aula 18.mp4
+│   ├───📄 19. Aula 19.mp4
+│   └───📄 20. Aula 20.mp4
+├───📁 15 - Eventos/
+│   ├───📁 00 - Missão Programação do ZERO - Starbucks - Novembro de 2022/
+│   │   ├───📄 01. Aula 1 - O oceano de oportunidades na Programação.mp4
+│   │   ├───📄 02. Aula 2 - Mao na massa - A segunda tecnologia da Missão.mp4
+│   │   └───📄 03. Aula 3 - Mao na massa - Aprenda a sua primeira linguagem de Programação.mp4
+│   ├───📁 01 - Missão Programação do ZERO - Instagram - Setembro de 2022/
+│   │   ├───📄 01. Aula 1 - O oceano de oportunidades na Programação.mp4
+│   │   ├───📄 02. Aula 2 - Mao na massa - A segunda tecnologia da Missão.mp4
+│   │   └───📄 03. Aula 3 - Mao na massa - Aprenda a sua primeira linguagem de Programação.mp4
+│   ├───📁 02 - Missão Programação do ZERO - Cronometro - Junho de 2022/
+│   │   ├───📄 01. Aula 1 - Os Passos para ser um Programador de Sucesso.mp4
+│   │   ├───📄 02. Aula 2 - Mao na massa - HTML.mp4
+│   │   ├───📄 03. Aula 3 - Mao na massa - CSS.mp4
+│   │   └───📄 04. Aula 4 - Terminando a aplicação.mp4
+│   ├───📁 03 - Missão Programação do ZERO - Netflix - Abril de 2022/
+│   │   ├───📄 01. Aula 1 - Os passos para voce se tornar um Programador em 6 meses, comecando HOJE.mp4
+│   │   ├───📄 02. Aula 2 - Mao na massa - Aprenda a primeira tecnologia para se tornar um Programador mais rapidoAula 2.mp4
+│   │   ├───📄 02. Aula 2 - Mao na massa - Aprenda a primeira tecnologia para se tornar um Programador mais rapidoAula 2.txt
+│   │   ├───📄 03. Aula 3 - Mao na massa - A segunda tecnologia na missao do Programador.mp4
+│   │   └───📄 04. Aula 4 - Mao na massa - Dando vida a aplicacao com sua primeira linguagem de Programacao.mp4
+│   ├───📁 04 - Missão Programação do ZERO - Landing Page - Janeiro de 2022/
+│   │   ├───📄 01. Aula 1 - Os passos para voce se tornar um Programador em 6 meses, comecando HOJE.mp4
+│   │   ├───📄 01. Aula 1 - Os passos para voce se tornar um Programador em 6 meses, comecando HOJE.txt
+│   │   ├───📄 02. Aula 2 - Mao na massa - Aprenda a primeira tecnologia para se tornar um Programador mais rapidoAula 2.mp4
+│   │   ├───📄 03. Aula 3 - Mao na massa - A segunda tecnologia na missao do Programador.mp4
+│   │   └───📄 04. Aula 4 - Mao na massa - Dando vida a aplicacao com sua primeira linguagem de Programacao.mp4
+│   ├───📁 05 - Missão Programador 5D/
+│   │   ├───📄 01. Aula 1.mp4
+│   │   ├───📄 01. Aula 1.txt
+│   │   ├───📄 02. Aula 2.mp4
+│   │   └───📄 03. Aula 3.mp4
+│   └───📁 06 - Mission One - Julho 2021/
+│       ├───📄 01. Aula 1.mp4
+│       ├───📄 01. Aula 1.txt
+│       ├───📄 02. Aula 2.mp4
+│       └───📄 03. Aula 3.mp4
+├───📁 16 - Cases/
+│   └───📄 01. Depoimentos.mp4
+└───📄 04. Mentoria com a Rafa - Tudo Sobre Entrevistas na Prática-011.mp4
