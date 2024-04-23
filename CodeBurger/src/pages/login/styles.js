@@ -24,6 +24,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
+form{
+  display: flex;
+  flex-direction: column;
+}
+
 h1{
 color: #FFF;
 font-family: 'Roboto';
@@ -35,7 +40,6 @@ text-align: center;
 margin-top: 100px;
 
 }
-
 `
 export const Label = styled.p`
 color: #FFF;
@@ -78,7 +82,6 @@ line-height: normal;
 &:active {
   opacity: 0.6;
 }
-
 `
 
 export const SignInLink = styled.p`
