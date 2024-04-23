@@ -1,11 +1,25 @@
 import { useForm } from "react-hook-form"
-import { Container, LoginImage, ContainerItens, Label, Input, Button, SignInLink  } from './styles';
+import { yupResolver } from "@hookform/resolvers/yup"
+import * as Yup from "yup"
+import { Container, LoginImage, ContainerItens, Label, Input, Button, SignInLink,ErrorMessage  } from './styles';
 import LoginImg  from '../../assets/login_img.svg'
 import LogoImg  from '../../assets/logo.svg'
 
 export default function Login() {
-  const { register, handleSubmit } = useForm()
-  const onSubmit = (data) => console.log(data)
+
+  // VALIDADO FORMULARIO \\
+  const schema = Yup.object().shape({
+    email: Yup.string()
+    .email('Digite um e-mail válido!')
+    .required('O e-mail é obrigatŕio!'),
+    password: Yup.string()
+    .required('A senha é obrigatória!')
+    .min(6, 'A senha deve ter no mínimo 6 digítos!'),
+  });
+
+  const { register,  handleSubmit,  formState: { errors }, } = useForm({
+    resolver: yupResolver(schema),  });
+  const onSubmit = (data) => console.log(data);
 
   return (
     <>
@@ -14,11 +28,13 @@ export default function Login() {
         <ContainerItens>
           <img src={LogoImg}/>
           <h1>Login</h1>
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form noValidate onSubmit={handleSubmit(onSubmit)}>
             <Label>Email</Label>
-            <Input {...register("e-mail")}/>
+            <Input type="email"{...register("email")} error={errors.email?.message}/>
+            <ErrorMessage>{errors.email?.message}</ErrorMessage>
             <Label>Senha</Label>
-            <Input type="password" {...register("password")}/>
+            <Input type="password" {...register("password")} error={errors.password?.message}/>
+            <ErrorMessage>{errors.password?.message}</ErrorMessage>
             <Button type="submit">Sign In</Button>
           </form>
           <SignInLink>

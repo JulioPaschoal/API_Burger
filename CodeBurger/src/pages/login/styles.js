@@ -57,7 +57,7 @@ height: 38.319px;
 border-radius: 5px;
 background: #FFF;
 box-shadow: 3px 3px 10px 0px rgba(74, 144, 226, 0.19);
-border: none;
+border: ${props => props.error ? '2px solid #CC1717' : 'none'};
 padding-left: 10px;
 `
 export const Button = styled.button`
@@ -97,4 +97,12 @@ a{
   cursor: pointer;
   text-decoration: underline
 }
+`
+export const ErrorMessage = styled.p`
+font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #cc1717;
+margin-top: 2px;
 `
