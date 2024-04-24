@@ -4,6 +4,7 @@ import * as Yup from "yup"
 import { Container, LoginImage, ContainerItens, Label, Input, Button, SignInLink,ErrorMessage  } from './styles';
 import LoginImg  from '../../assets/login_img.svg'
 import LogoImg  from '../../assets/logo.svg'
+import api from '../../services/api';
 
 export default function Login() {
 
@@ -19,7 +20,15 @@ export default function Login() {
 
   const { register,  handleSubmit,  formState: { errors }, } = useForm({
     resolver: yupResolver(schema),  });
-  const onSubmit = (data) => console.log(data);
+
+    // LOGANDO NA APLICAÇÃO COM API \\
+  const onSubmit = async clientData => {
+    const res = await api.post('sessions', {
+      email: clientData.email,
+      password: clientData.password
+    });
+    console.log(res);
+  }
 
   return (
     <>
