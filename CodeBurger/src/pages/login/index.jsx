@@ -1,10 +1,11 @@
 import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as Yup from "yup"
-import { Container, LoginImage, ContainerItens, Label, Input, Button, SignInLink,ErrorMessage  } from './styles';
+import { Container, LoginImage, ContainerItens, Label, Input, SignInLink,ErrorMessage  } from './styles';
 import LoginImg  from '../../assets/login_img.svg'
 import LogoImg  from '../../assets/logo.svg'
 import api from '../../services/api';
+import Button from '../../components/Button'
 
 export default function Login() {
 
