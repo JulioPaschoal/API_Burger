@@ -4,16 +4,16 @@ export const ContainerButton = styled.button`
 width: 182.81px;
 height: 36.129px;
 background: #9758A6;
-margin-top: 67px;
-border-radius: 30px;
+border-radius: 20px;
 border: none;
-color: #EEE;
-text-align: center;
-font-family: 'Roboto';
-font-size: 16px;
+cursor: pointer;
 font-style: normal;
 font-weight: 500;
+font-size: 16px;
 line-height: normal;
+text-align: center;
+color: #EEE;
+font-family: 'Roboto';
 
 &:hover{
   opacity: 0.8
