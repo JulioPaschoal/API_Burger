@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form"
+import { toast } from 'react-toastify';
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as Yup from "yup"
 import { Container, LoginImage, ContainerItens, Label, Input, SignInLink,ErrorMessage  } from './styles';
@@ -24,7 +25,19 @@ export default function Login() {
 
     // LOGANDO NA APLICAÇÃO COM API \\
   const onSubmit = async clientData => {
-    const res = await api.post('sessions', {
+    const res = await toast.promise(
+      api.post('sessions', {
+        email: clientData.email,
+        password: clientData.password
+      }),
+      {
+        pending: 'Verificando seus dados',
+        success: 'Seja bem-vindo(a)',
+        error: 'Verifique seu e-mail e senha'
+      }
+    ) 
+
+    api.post('sessions', {
       email: clientData.email,
       password: clientData.password
     });

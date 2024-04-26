@@ -34,7 +34,6 @@ export default function Register() {
       email: clientData.email,
       password: clientData.password
     });
-    console.log(res);
   }
 
   return (
