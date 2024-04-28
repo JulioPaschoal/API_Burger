@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ToastContainer/>
+    <ToastContainer theme='colored'/>
     <GlobalStyles/>
     <Login/>
   </React.StrictMode>,

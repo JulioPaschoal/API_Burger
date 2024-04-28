@@ -25,25 +25,26 @@ export default function Login() {
 
     // LOGANDO NA APLICAÇÃO COM API \\
   const onSubmit = async clientData => {
-    const res = await toast.promise(
-      api.post('sessions', {
+    try {
+      const { status } = await api.post('sessions', {
         email: clientData.email,
         password: clientData.password
-      }),
-      {
-        pending: 'Verificando seus dados',
-        success: 'Seja bem-vindo(a)',
-        error: 'Verifique seu e-mail e senha'
-      }
-    ) 
-
-    api.post('sessions', {
-      email: clientData.email,
-      password: clientData.password
-    });
+      },
+      { validateStatus: () => true, }
+    ); 
+    if (status === 201 || status === 200){
+      toast.success('Seja bem-vido(a)')
+    }else if (status === 401) {
+      toast.error('E-mail ou senha incorretos')
+    } else {
+      throw new Error()
+    }
+    } catch (error) {
+      toast.error('Falha no sistema! Tente novamente')
+    }
+    
     console.log(res);
   }
-
   return (
     <>
       <Container>

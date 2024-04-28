@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form"
+import { toast } from 'react-toastify';
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as Yup from "yup"
 import { Container, RegisterImg, ContainerItens, Label, Input, SignInLink,ErrorMessage  } from './styles';
@@ -29,11 +30,26 @@ export default function Register() {
 
     // LOGANDO NA APLICAÇÃO COM API \\
   const onSubmit = async clientData => {
-    const res = await api.post('users', {
-      name: clientData.name,
-      email: clientData.email,
-      password: clientData.password
-    });
+    // VALIDANDO CADASTRO DE USUARIO \\
+    try {
+      const { status } = await api.post('users', {
+        name: clientData.name,
+        email: clientData.email,
+        password: clientData.password
+      },
+      { validateStatus: () => true, }
+    );
+    if (status === 201 || status === 200){
+      toast.success('Usuário cadastrado com sucesso')
+    } else if (status === 409) {
+      toast.error('E-mail já cadastrado! Faça login para continuar')
+    } else {
+      throw new Error()
+    }
+    } catch (error) {
+      toast.error('Falha no sistema! Tente novamente')
+    }
+
   }
 
   return (
