@@ -6,11 +6,14 @@ import { Container, LoginImage, ContainerItens, Label, Input, SignInLink,ErrorMe
 import LoginImg  from '../../assets/login_img.svg'
 import LogoImg  from '../../assets/logo.svg'
 import api from '../../services/api';
-import Button from '../../components/Button'
+import Button from '../../components/Button';
+import { useUser } from '../../hooks/UserContext';
 
 export default function Login() {
-
-  // VALIDADO FORMULARIO \\
+  const users =  useUser()
+  console.log(users);
+  
+   // VALIDADO FORMULARIO \\
   const schema = Yup.object().shape({
     email: Yup.string()
       .email('Digite um e-mail válido!')
@@ -42,8 +45,6 @@ export default function Login() {
     } catch (error) {
       toast.error('Falha no sistema! Tente novamente')
     }
-    
-    console.log(res);
   }
   return (
     <>
