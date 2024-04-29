@@ -7,6 +7,7 @@ import RegisterImage  from '../../assets/register_img.svg'
 import LogoImg  from '../../assets/logo.svg'
 import api from '../../services/api';
 import Button from '../../components/Button'
+import Linkbtn from '../../components/Link/index';
 
 export default function Register() {
 
@@ -80,7 +81,7 @@ export default function Register() {
             <Button type="submit" style={{marginTop: 25}}>Sign Up</Button>
           </form>
           <SignInLink>
-          Já possui conta? <a>Sign In</a>
+          Já possui conta? <Linkbtn style={{color: 'white'}} to="/login">Sign In</Linkbtn>
         </SignInLink>
         </ContainerItens>
       </Container>

@@ -8,6 +8,8 @@ import LogoImg  from '../../assets/logo.svg'
 import api from '../../services/api';
 import Button from '../../components/Button';
 import { useUser } from '../../hooks/UserContext';
+import { Link } from "react-router-dom";
+import Linkbtn from "../../components/Link";
 
 export default function Login() {
   const {putUserData, userData} =  useUser();
@@ -39,7 +41,6 @@ export default function Login() {
       }
     );
     putUserData(data)
-    console.log(userData);
   }
   return (
     <>
@@ -58,7 +59,7 @@ export default function Login() {
             <Button type="submit" style={{marginTop: 70}}>Sign In</Button>
           </form>
           <SignInLink>
-          Não possui conta? <a>Sign Up</a>
+          Não possui conta? <Linkbtn style={{color: 'white'}} to="/cadastro"> Sign Up</Linkbtn>
         </SignInLink>
         </ContainerItens>
       </Container>
