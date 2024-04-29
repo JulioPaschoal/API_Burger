@@ -10,8 +10,7 @@ import Button from '../../components/Button';
 import { useUser } from '../../hooks/UserContext';
 
 export default function Login() {
-  const users =  useUser()
-  console.log(users);
+  const {putUserData, userData} =  useUser();
   
    // VALIDADO FORMULARIO \\
   const schema = Yup.object().shape({
@@ -28,23 +27,19 @@ export default function Login() {
 
     // LOGANDO NA APLICAÇÃO COM API \\
   const onSubmit = async clientData => {
-    try {
-      const { status } = await api.post('sessions', {
+    const  {data}  = await toast.promise(
+      api.post('sessions', {
         email: clientData.email,
         password: clientData.password
-      },
-      { validateStatus: () => true, }
-    ); 
-    if (status === 201 || status === 200){
-      toast.success('Seja bem-vido(a)')
-    }else if (status === 401) {
-      toast.error('E-mail ou senha incorretos')
-    } else {
-      throw new Error()
-    }
-    } catch (error) {
-      toast.error('Falha no sistema! Tente novamente')
-    }
+      }),
+      {
+        pending: 'Verificando seus dados',
+        success: 'Seja bem-vindo(a)',
+        error:   'Verifique seu e-mail e senha',
+      }
+    );
+    putUserData(data)
+    console.log(userData);
   }
   return (
     <>
